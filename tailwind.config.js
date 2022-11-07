@@ -1,8 +1,7 @@
 module.exports = {
   purge: [
     'public/index.html',
-    'src/**/*.js',
-    'src/**/*.jsx',
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {
@@ -29,6 +28,10 @@ module.exports = {
           800: '#0059C2',
           900: '#004391',
         },
+        back: '#131515',
+        text: '#F3F3F3',
+        high: '#94E8B4',
+        yell: "#D4E162"
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',

@@ -5,20 +5,20 @@ import Header from '../partials/Header';
 
 function SignIn() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex flex-col min-h-screen overflow-hidden bg-back">
 
       {/*  Site header */}
       <Header />
 
       {/*  Page content */}
-      <main className="flex-grow">
+      <main className="flex-grow bg-back">
 
-        <section className="bg-gradient-to-b from-gray-100 to-white">
+        <section className=" bg-back">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
 
               {/* Page header */}
-              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+              <div className="max-w-3xl text-text mx-auto text-center pb-12 md:pb-20">
                 <h1 className="h1">Welcome back. We exist to make entrepreneurism easier.</h1>
               </div>
 
@@ -27,14 +27,14 @@ function SignIn() {
                 <form>
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
-                      <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">Email</label>
+                      <label className="block  text-sm font-medium mb-1 text-text" htmlFor="email">Email</label>
                       <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Enter your email address" required />
                     </div>
                   </div>
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <div className="flex justify-between">
-                        <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="password">Password</label>
+                        <label className="block text-text text-sm font-medium mb-1" htmlFor="password">Password</label>
                         <Link to="reset-password" className="text-sm font-medium text-blue-600 hover:underline">Having trouble signing in?</Link>
                       </div>
                       <input id="password" type="password" className="form-input w-full text-gray-800" placeholder="Enter your password" required />
