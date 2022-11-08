@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Header() {
 
   const [top, setTop] = useState(true);
+  
 
   // detect whether user has scrolled the page down by 10px 
   useEffect(() => {
@@ -33,6 +35,7 @@ function Header() {
                 </defs>
                 <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
               </svg>
+              <span className='font-semibold text-white text-xl py-2'>Astrum</span>
             </Link>
           </div>
 
