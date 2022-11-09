@@ -1,17 +1,33 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
 import Header from '../partials/Header';
-import { GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword } from "firebase/auth";
+import { GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { auth } from '../firebase';
 import { Helmet } from 'react-helmet';
 
 
 function SignIn() {
   const provider = new GoogleAuthProvider();
-
+  const history = useHistory();
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
+
+
+  useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
+        if (user) {
+            // User is signed in, see docs for a list of available properties
+            // https://firebase.google.com/docs/reference/js/firebase.User
+            const uid = user.uid;
+            history.push("/dashboard");
+            // ...
+        } else {
+            // User is signed out
+            // ...
+        }
+    })
+}, []);
 
   const GoogleLogin = () => {
     signInWithPopup(auth, provider)
@@ -19,6 +35,7 @@ function SignIn() {
         // This gives you a Google Access Token. You can use it to access the Google API.
         // const credential = GoogleAuthProvider.credentialFromResult(result);
         console.log(result);
+        history.push('/dashboard');
         // ...
       }).catch((error) => {
         // Handle Errors here.
@@ -34,6 +51,7 @@ function SignIn() {
         toast.success('Successfully Login !');
         const user = userCredential.user;
         console.log(user.displayName);
+        history.push("/dashboard");
         // ...
       })
       .catch((error) => {

@@ -35,7 +35,7 @@ function Header() {
                 </defs>
                 <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
               </svg>
-              <span className='font-semibold text-white text-xl py-2'>Astrum</span>
+              <span className='font-semibold text-white text-xl py-5'>Astrum</span>
             </Link>
           </div>
 
