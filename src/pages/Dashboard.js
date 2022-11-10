@@ -65,7 +65,7 @@ const Dashboard = () => {
                             </a>
                         </li>
                         <li class="mb-3">
-                            <a class="nav__menu flex flex-align-center">
+                            <a href='https://donate.stripe.com/test_00g2975i2eYD2R25km' target={"blank"} class="nav__menu flex flex-align-center">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M19.3541 0C23.9526 0 26.6667 2.64612 26.6667 7.17573H21.0252V7.22196C18.4069 7.22196 16.2844 9.29132 16.2844 11.844C16.2844 14.3967 18.4069 16.4661 21.0252 16.4661H26.6667V16.882C26.6667 21.3539 23.9526 24 19.3541 24H7.31259C2.71407 24 0 21.3539 0 16.882V7.11796C0 2.64612 2.71407 0 7.31259 0H19.3541ZM25.6711 9.16322C26.2209 9.16322 26.6667 9.59778 26.6667 10.1338V13.5079C26.6603 14.0414 26.2183 14.4723 25.6711 14.4786H21.1319C19.8064 14.496 18.6473 13.6112 18.3467 12.3524C18.1961 11.5711 18.4075 10.7648 18.9241 10.1496C19.4407 9.53449 20.2098 9.17343 21.0252 9.16322H25.6711ZM21.6652 10.7232H21.2267C20.9574 10.7201 20.6981 10.8222 20.5066 11.0067C20.3151 11.1912 20.2074 11.4428 20.2074 11.7053C20.2074 12.2561 20.6618 12.7043 21.2267 12.7106H21.6652C22.2281 12.7106 22.6844 12.2657 22.6844 11.7169C22.6844 11.1681 22.2281 10.7232 21.6652 10.7232ZM13.843 5.18825H6.31704C5.75871 5.18822 5.30427 5.62613 5.29778 6.17044C5.29778 6.72117 5.7522 7.1694 6.31704 7.17573H13.843C14.4059 7.17573 14.8622 6.73082 14.8622 6.18199C14.8622 5.63317 14.4059 5.18825 13.843 5.18825Z"
@@ -131,10 +131,10 @@ const Dashboard = () => {
                     </div>
                     <div class="bg-primary flex flex-justify-between flex-align-center banner">
                         <div>
-                            <h1 class="text-4xl text-white mb-2">Assign expert to</h1>
-                            <h1 class="text-4xl text-white mb-4">Manage Portfolio</h1>
+                            <h1 class="text-4xl text-white mb-2">Want to</h1>
+                            <h1 class="text-4xl text-white mb-4">Update Information?</h1>
                             <div class="banner__cta">
-                                <button class="button bg-secondary text-white py-4 px-8">Find expert</button>
+                                <button class="button bg-secondary text-white py-4 px-8">Update</button>
                             </div>
                         </div>
                         <div class="banner__img">
@@ -168,18 +168,18 @@ const Dashboard = () => {
                             </svg>
                             <div class="mt-1">
                                 <div class="flex flex-align-center flex-justify-between mb-2">
-                                    <p class="text-xl mr-4"><b>BTC</b><span class="text-gray-500 text-sm"> / USDT</span></p>
-                                    <p class="text-xl">$135,25</p>
+                                    <p class="text-xl mr-4"><b>Injured</b><span class="text-gray-500 text-sm"></span></p>
+                                    <p class="text-xl">103</p>
                                 </div>
                                 <div class="flex flex-align-center flex-justify-between">
-                                    <small class="text-gray-500">Bitcoin</small>
+                                    <small class="text-gray-500">Updated 10 min ago</small>
                                     <small class="flex flex-align-center text-error"><svg width="20" height="20" viewBox="5 5 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M10.869 16.6308C10.811 16.5743 10.563 16.3609 10.359 16.1622C9.076 14.9971 6.976 11.9576 6.335 10.3668C6.232 10.1252 6.014 9.51437 6 9.18802C6 8.8753 6.072 8.5772 6.218 8.29274C6.422 7.93814 6.743 7.65368 7.122 7.49781C7.385 7.39747 8.172 7.2416 8.186 7.2416C9.047 7.08573 10.446 7 11.992 7C13.465 7 14.807 7.08573 15.681 7.21335C15.695 7.22796 16.673 7.38383 17.008 7.55431C17.62 7.86702 18 8.47784 18 9.13151V9.18802C17.985 9.61374 17.605 10.509 17.591 10.509C16.949 12.0141 14.952 14.9834 13.625 16.1768C13.625 16.1768 13.284 16.5129 13.071 16.659C12.765 16.887 12.386 17 12.007 17C11.584 17 11.19 16.8724 10.869 16.6308Z"
                                             fill="#FF4842" />
                                     </svg>
-                                        $32 (2%)</small>
+                                        7% lower</small>
                                 </div>
                             </div>
                         </div>
@@ -208,18 +208,18 @@ const Dashboard = () => {
                             </svg>
                             <div class="mt-1">
                                 <div class="flex flex-align-center flex-justify-between mb-2">
-                                    <p class="text-xl mr-4"><b>ETH</b><span class="text-gray-500 text-sm"> / USDT</span></p>
-                                    <p class="text-xl">$215,00</p>
+                                    <p class="text-xl mr-4"><b>Deaths</b><span class="text-gray-500 text-sm"> / day</span></p>
+                                    <p class="text-xl">24</p>
                                 </div>
                                 <div class="flex flex-align-center flex-justify-between">
-                                    <small class="text-gray-500">Ethereum</small>
+                                    <small class="text-gray-500">Updated 20 min ago</small>
                                     <small class="flex flex-align-center text-success"><svg width="20" height="20" viewBox="0 0 20 20"
                                         fill="none" xmlns="http://www.w3.org/2000/svg" class="rotate-180">
                                         <path
                                             d="M10.869 16.6308C10.811 16.5743 10.563 16.3609 10.359 16.1622C9.076 14.9971 6.976 11.9576 6.335 10.3668C6.232 10.1252 6.014 9.51437 6 9.18802C6 8.8753 6.072 8.5772 6.218 8.29274C6.422 7.93814 6.743 7.65368 7.122 7.49781C7.385 7.39747 8.172 7.2416 8.186 7.2416C9.047 7.08573 10.446 7 11.992 7C13.465 7 14.807 7.08573 15.681 7.21335C15.695 7.22796 16.673 7.38383 17.008 7.55431C17.62 7.86702 18 8.47784 18 9.13151V9.18802C17.985 9.61374 17.605 10.509 17.591 10.509C16.949 12.0141 14.952 14.9834 13.625 16.1768C13.625 16.1768 13.284 16.5129 13.071 16.659C12.765 16.887 12.386 17 12.007 17C11.584 17 11.19 16.8724 10.869 16.6308Z"
                                             fill="#6DD64D" />
                                     </svg>
-                                        $32 (2%)</small>
+                                      2% hike</small>
                                 </div>
                             </div>
                         </div>
@@ -249,18 +249,18 @@ const Dashboard = () => {
 
                             <div class="mt-1">
                                 <div class="flex flex-align-center flex-justify-between mb-2">
-                                    <p class="text-xl mr-4"><b>BNB</b><span class="text-gray-500 text-sm"> / USDT</span></p>
-                                    <p class="text-xl">$135,25</p>
+                                    <p class="text-xl mr-4"><b>Emergency Call</b><span class="text-gray-500 text-sm"></span></p>
+                                    <p class="text-xl">5</p>
                                 </div>
                                 <div class="flex flex-align-center flex-justify-between">
-                                    <small class="text-gray-500">Binance</small>
+                                    <small class="text-gray-500">Updated 1 hour ago</small>
                                     <small class="flex flex-align-center text-error"><svg width="20" height="20" viewBox="5 5 20 20" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M10.869 16.6308C10.811 16.5743 10.563 16.3609 10.359 16.1622C9.076 14.9971 6.976 11.9576 6.335 10.3668C6.232 10.1252 6.014 9.51437 6 9.18802C6 8.8753 6.072 8.5772 6.218 8.29274C6.422 7.93814 6.743 7.65368 7.122 7.49781C7.385 7.39747 8.172 7.2416 8.186 7.2416C9.047 7.08573 10.446 7 11.992 7C13.465 7 14.807 7.08573 15.681 7.21335C15.695 7.22796 16.673 7.38383 17.008 7.55431C17.62 7.86702 18 8.47784 18 9.13151V9.18802C17.985 9.61374 17.605 10.509 17.591 10.509C16.949 12.0141 14.952 14.9834 13.625 16.1768C13.625 16.1768 13.284 16.5129 13.071 16.659C12.765 16.887 12.386 17 12.007 17C11.584 17 11.19 16.8724 10.869 16.6308Z"
                                             fill="#FF4842" />
                                     </svg>
-                                        $32 (2%)</small>
+                                      2% hike</small>
                                 </div>
                             </div>
                         </div>
@@ -310,9 +310,9 @@ const Dashboard = () => {
                             </svg> */}
                         </div>
                     </div>
-                    <h2 class="text-2xl mb-4 text-text">Accounts</h2>
+                    <h2 class="text-2xl mb-4 text-text">Request Received</h2>
                     <div class="card flex flex-align-center flex-justify-center flex-column mb-4">
-                        <h2 class="text-2xl text-white text-bold mb-2">$1,445,000</h2>
+                        <h2 class="text-2xl text-white text-bold mb-2">12</h2>
                         <p class="text-bold text-white flex flex-align-center">
                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
                                 class="rotate-180">
@@ -320,10 +320,10 @@ const Dashboard = () => {
                                     d="M10.869 16.6308C10.811 16.5743 10.563 16.3609 10.359 16.1622C9.076 14.9971 6.976 11.9576 6.335 10.3668C6.232 10.1252 6.014 9.51437 6 9.18802C6 8.8753 6.072 8.5772 6.218 8.29274C6.422 7.93814 6.743 7.65368 7.122 7.49781C7.385 7.39747 8.172 7.2416 8.186 7.2416C9.047 7.08573 10.446 7 11.992 7C13.465 7 14.807 7.08573 15.681 7.21335C15.695 7.22796 16.673 7.38383 17.008 7.55431C17.62 7.86702 18 8.47784 18 9.13151V9.18802C17.985 9.61374 17.605 10.509 17.591 10.509C16.949 12.0141 14.952 14.9834 13.625 16.1768C13.625 16.1768 13.284 16.5129 13.071 16.659C12.765 16.887 12.386 17 12.007 17C11.584 17 11.19 16.8724 10.869 16.6308Z"
                                     fill="white" />
                             </svg>
-                            $32 (2%)
+                            (2%)
                         </p>
                     </div>
-                    <div class="flex flex-align-center flex-justify-between mb-8">
+                    {/* <div class="flex flex-align-center flex-justify-between mb-8">
                         <button class="button bg-primary text-white flex flex-align-center px-4 py-4">
                             <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2">
                                 <path
@@ -339,8 +339,8 @@ const Dashboard = () => {
                             </svg>
                             <span>Withdraw</span>
                         </button>
-                    </div>
-                    <h2 class="text-2xl mt-6 mb-4 text-text">Recent Transactions</h2>
+                    </div> */}
+                    <h2 class="text-2xl mt-6 mb-4 text-text">Recent Evacuations</h2>
                     <div class="transactions">
                         <div class="transaction flex flex-align-center flex-justify-between mb-4">
                             <div class="flex flex-align-center flex-justify-between">
@@ -367,11 +367,11 @@ const Dashboard = () => {
                                     </defs>
                                 </svg>
                                 <div>
-                                    <p class="text-bold text-text">Bitcoin Buy</p>
+                                    <p class="text-bold text-text">Palampur</p>
                                     <small class="text-bold text-gray-500">Today</small>
                                 </div>
                             </div>
-                            <p class="text-bold text-success">+2.05 BTC</p>
+                            <p class="text-bold text-success">Received</p>
                         </div>
                         <div class="transaction flex flex-align-center flex-justify-between mb-4">
                             <div class="flex flex-align-center flex-justify-between">
@@ -398,11 +398,11 @@ const Dashboard = () => {
                                     </defs>
                                 </svg>
                                 <div>
-                                    <p class="text-bold text-text">Ethereum Sell</p>
-                                    <small class="text-bold text-gray-500">2 days ago</small>
+                                    <p class="text-bold text-text">Chandiawadi</p>
+                                    <small class="text-bold text-gray-500">1 days ago</small>
                                 </div>
                             </div>
-                            <p class="text-bold text-error">+3.05 ETH</p>
+                            <p class="text-bold text-error">Not Received</p>
                         </div>
                         <div class="transaction flex flex-align-center flex-justify-between mb-4">
                             <div class="flex flex-align-center flex-justify-between">
@@ -429,11 +429,11 @@ const Dashboard = () => {
                                     </defs>
                                 </svg>
                                 <div>
-                                    <p class="text-bold text-text">Ethereum Buy</p>
+                                    <p class="text-bold text-text">Pathlipur</p>
                                     <small class="text-bold text-gray-500">3 days ago</small>
                                 </div>
                             </div>
-                            <p class="text-bold text-success">+1.05 ETH</p>
+                            <p class="text-bold text-yellow-500">In Progress</p>
                         </div>
                     </div>
                 </section>

@@ -11,16 +11,8 @@ const Helpform = () => {
             console.log("Error");
         }
     }
-    async function showPosition(position) {
-        var requestOptions = {
-            method: 'GET',
-            redirect: 'follow'
-          };
-          
-          fetch("http://api.positionstack.com/v1/reverse?access_key=daa0d57cdbf864f8c49e14810e883876&query=28.677588,77.29136", requestOptions)
-            .then(response => response.text())
-            .then(result => console.log(result))
-            .catch(error => console.log('error', error));
+    function showPosition(position) {
+        setloc(`${position.coords.longitude} ${position.coords.latitude}`)
     }
     return (
         <div className='forms'>
