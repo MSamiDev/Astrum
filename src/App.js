@@ -16,6 +16,7 @@ import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import Dashboard from './pages/Dashboard';
 import Helpform from './pages/Helpform';
+import Map from './pages/map';
 
 function App() {
 
@@ -57,6 +58,9 @@ function App() {
         </Route>
         <Route path="/help">
           <Helpform />
+        </Route>
+        <Route path="/map">
+          <Map />
         </Route>
       </Switch>
     </>
